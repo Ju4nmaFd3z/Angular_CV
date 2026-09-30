@@ -1,0 +1,11 @@
+header {
+  background-color: #FBF5EC;
+  color: #3B2A20;
+  padding: 1rem;
+}
+
+header>nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

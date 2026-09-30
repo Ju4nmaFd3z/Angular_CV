@@ -7,11 +7,33 @@
   box-sizing: border-box;
 }
 
-html, body, app-root {
+html, body {
   height: 100%;
 }
 
 app-root {
-  display: flex;
-  flex-direction: column;
+  min-height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: #3B2A20;
+}
+
+h3 {
+  color: #1F6F78;
+  margin: 1rem 0 0.5rem;
+}
+
+h4 {
+  margin-top: 0.5rem;
+}
+
+p {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: #1F6F78;
 }

@@ -1,0 +1,24 @@
+<main id="main">
+  <h3>Sobre mí</h3>
+  <img ngSrc="yo.jpg" width="150" height="150" priority alt="Foto de Juanma Fernández Rodríguez">
+  <p>{{ sobreMi }}</p>
+
+  <h3>Experiencia profesional</h3>
+  <h4>{{ empresa1 }}</h4>
+  <p>{{ puesto1 }} · {{ periodo1 }}</p>
+  <p>{{ descripcion1 }}</p>
+  <h4>{{ empresa2 }}</h4>
+  <p>{{ puesto2 }} · {{ periodo2 }}</p>
+  <p>{{ descripcion2 }}</p>
+
+  <h3>Formación</h3>
+  <p>{{ titulo }}</p>
+  <p>{{ centro }} · {{ periodoFormacion }}</p>
+
+  <h3>Tecnologías</h3>
+  <ul>
+    @for (tec of tecnologias; track tec) {
+    <li>{{ tec }}</li>
+    }
+  </ul>
+</main>

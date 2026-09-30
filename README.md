@@ -1,6 +1,8 @@
 # Cv
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+Currículum web de Juanma Fernández Rodríguez, desarrollado con [Angular](https://angular.dev) 22.
+
+**Requisitos:** Node.js `^22.22.3`, `^24.15.0` o superior, y npm. Instala las dependencias con `npm install`.
 
 ## Development server
 
