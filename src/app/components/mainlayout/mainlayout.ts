@@ -4,7 +4,7 @@ import { Main } from './main/main';
 
 @Component({
   imports: [Aside, Main],
-  selector: 'app-mainlayout',
+  selector: 'div[attr-main]',
   styleUrl: './mainlayout.css',
   templateUrl: './mainlayout.html',
 })
