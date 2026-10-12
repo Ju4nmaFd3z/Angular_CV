@@ -13,4 +13,5 @@ export class Aside {
   sitioWeb = 'https://juanma-dev-portfolio.vercel.app';
   github = 'Ju4nmaFd3z';
   idiomas = ['Español (Nativo)', 'Inglés (Intermedio)', 'Italiano (Básico)'];
+  mostrarContacto = true;
 }

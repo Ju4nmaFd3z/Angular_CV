@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 @Component({
   imports: [],
@@ -10,4 +10,6 @@ export class Header {
   nombre = 'Juanma Fernández Rodríguez';
   profesion = 'Desarrollador de Aplicaciones Multiplataforma';
   frase = 'Me apasiona entender cómo funcionan las cosas por dentro y aplicar buenas prácticas.';
+  seccionActiva = input<string>();
+  seccionSeleccionada = output<string>();
 }

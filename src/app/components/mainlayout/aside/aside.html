@@ -1,5 +1,7 @@
 <aside>
   <h3>Contacto</h3>
+  <button (click)="mostrarContacto = !mostrarContacto">Mostrar / ocultar datos de contacto</button>
+  @if (mostrarContacto) {
   <p>{{ direccion }}</p>
   <p><a [href]="'tel:' + telefono">{{ telefono }}</a></p>
   <p><a [href]="'mailto:' + correoElectronico">{{ correoElectronico }}</a></p>
@@ -8,6 +10,7 @@
     GitHub:
     <a [href]="'https://github.com/' + github" target="_blank" rel="noopener noreferrer">{{ github }}</a>
   </p>
+  }
 
   <h3>Idiomas</h3>
   @for (idioma of idiomas; track idioma) {

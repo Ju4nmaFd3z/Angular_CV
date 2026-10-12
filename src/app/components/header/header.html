@@ -3,7 +3,8 @@
   <p>{{ profesion }}</p>
   <p>{{ frase }}</p>
   <nav>
-    <a href="#main">Main</a>
-    <a href="#footer">Footer</a>
+    <button [disabled]="seccionActiva() === 'resumen'" (click)="seccionSeleccionada.emit('resumen')">Resumen</button>
+    <button [disabled]="seccionActiva() === 'experiencia'" (click)="seccionSeleccionada.emit('experiencia')">Experiencia</button>
+    <button [disabled]="seccionActiva() === 'formacion'" (click)="seccionSeleccionada.emit('formacion')">Formación</button>
   </nav>
 </header>

@@ -11,4 +11,5 @@ import { Footer } from './components/footer/footer';
 })
 export class AppComponent {
   title = 'cv';
+  seccionActiva = 'resumen';
 }

@@ -1,3 +1,3 @@
-<app-header></app-header>
-<div attr-main></div>
+<app-header [seccionActiva]="seccionActiva" (seccionSeleccionada)="seccionActiva = $event"></app-header>
+<div attr-main [seccion]="seccionActiva"></div>
 <app-footer></app-footer>
